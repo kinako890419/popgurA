@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://pbs.twimg.com/profile_images/1309957523089354760/uRrxAmOB_400x400.jpg"><link rel="stylesheet" href="main.css">
+    <title>A</title>
+</head>
+<body>
+<div class="shark">
+    <h1>POPSHARK</h1>
+    <span style="font-size:large;display:flex; justify-content: center;" id="times">0</span>
+    <audio src="gurA.mp4"></audio>
+    <p><center><button class="b" onclick="checkRight()" > </center></button></p>
+</div>
+    
+    
+
+</body>
+<script>
+    var x=0;
+    function checkRight(){
+    x=x+1;
+    document.getElementById('times').innerHTML = x;
+    var music = new Audio('gurA.mp4');
+    music.play();
+    }
+    </script>
+</html>

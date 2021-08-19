@@ -1,0 +1,24 @@
+.shark{
+    background-image: url(https://pbs.twimg.com/media/Ep-6V5dU0AAX14a?format=png) ;
+}
+
+.b {
+    background-image: url(https://pbs.twimg.com/media/E9ELcNqUYAc1xu4?format=png);
+    width: 770px;
+    height: 680px;
+    background-repeat: no-repeat;
+}
+.b:active{
+    background-image: url(https://pbs.twimg.com/media/E9ELcOnVoAEGvAn?format=png);
+    width: 770px;
+    height: 680px;
+    background-repeat: no-repeat;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+
+/* pic source https://twitter.com/LLG_lailing/status/1427933364506435585 */
